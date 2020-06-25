@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(170, 204, 196);
+    color: #222;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input {
+    width: 100%;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+
+form button {
+    margin-left: -1px;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+form button:hover, #clear:hover {
+    background-color: rgb(219, 207, 219);
+}
+
+form input, form button, #clear, .box input {
+    font-size: 1.15rem;
+    padding: 0.35rem 0.75rem;
+    border: 1px solid rgb(124, 117, 117);
+}
+
+#clear {
+    border-radius: 0.25rem;
+}
+
+.between {
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.between button {
+    background-color: transparent;
+    border: 0px;
+}
+
+.done, .accept {
+    color: rgb(47, 95, 33);
+}
+
+.edit {
+    color: rgb(40, 40, 153);
+}
+
+.delete, .decline {
+    color: rgb(255, 0, 0);
+}
+
+.done:hover, .edit:hover, .delete:hover {
+    color: black;
+}
+
+.txt {
+    text-transform: capitalize;
+    color: black;
+    text-shadow: 1px 1px 5px black;
+    width: 45%;
+}
+
+.box {
+    border: 1px solid rgb(117, 117, 117);
+    padding: 0.5rem 1.2rem;
+    border-radius: 0.25rem;
+}
+
+.box input {
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    width: 100% !important;
+}

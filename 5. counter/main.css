@@ -1,0 +1,28 @@
+body {
+    background-image: url('https://cdnb.artstation.com/p/assets/images/images/019/834/099/large/andrew-king-sandy-rock-web-05.jpg?1565195847');
+}
+
+#myBox {
+    margin-left: 35%;
+    margin-right: 35%;
+    border-style: solid;
+    border-color: rgb(0, 0, 0, 35%);
+    box-shadow: 1px 1px 8px inset rgb(226, 146, 70);
+    color: white;
+}
+
+.number {
+    font-size: 12rem !important;
+}
+
+button {
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: black !important;
+    background-color: rgb(226, 146, 70);
+    color: rgb(0, 0, 0);
+}
+
+button:hover {
+    background-color: rgb(184, 90, 2);
+}

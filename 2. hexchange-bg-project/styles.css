@@ -1,0 +1,17 @@
+#body {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+}
+
+#changer {
+    font-size: 24px;
+    align-self: center;
+    text-align: center;
+    border-style: solid;
+    border-radius: 0.25rem;
+    border-color: rgb(138, 28, 114);
+    color: rgb(138, 28, 114);
+    border-width: 1px;
+    background-color: transparent;
+}

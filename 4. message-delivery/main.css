@@ -1,0 +1,17 @@
+body {
+    background-color: coral;
+}
+
+#myBox {
+    background-color: rgb(241, 156, 125);
+    margin-right: 35%;
+    margin-left: 35%;
+}
+
+button {
+    background-color: rgb(243, 54, 54) !important;
+}
+
+button:hover {
+    background-color: crimson !important;
+}

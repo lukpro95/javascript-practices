@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(41, 40, 40);
+}
+
+#myBox {
+    background-image: url('https://www.ecopetit.cat/wpic/mpic/63-632135_lambo-wallpaper-engine-car-wallpapers-hd-for-mobile.jpg');
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    max-width: 700px !important;
+    max-height: 700px !important;
+    height: 700px;
+}
+
+.number {
+    font-size: 12rem !important;
+}
+
+button {
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: black !important;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+button:hover {
+    background-color: rgb(184, 90, 2);
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }

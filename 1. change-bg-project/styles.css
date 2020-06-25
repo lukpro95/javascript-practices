@@ -1,0 +1,23 @@
+#body {
+    background-color: pink;
+}
+
+#changer {
+    display: inline-block;
+    height: 50px;
+    align-self: center;
+    text-align: center;
+    border-style: solid;
+    border-radius: 0.25rem;
+    border-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-width: 1px;
+    background-color: transparent;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+}

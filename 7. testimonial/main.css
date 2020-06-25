@@ -1,0 +1,65 @@
+body {
+    background-image: url('exo.jpg');
+}
+
+#myBox {
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-radius: 0.35rem;
+    color: rgb(255, 255, 255);
+}
+
+.number {
+    font-size: 12rem !important;
+}
+
+button {
+    border-style: solid !important;
+    border-width: 2px !important;
+    border-radius: 50%;
+    border-color: rgb(255, 255, 255) !important;
+    background-color: transparent;
+    align-items: center;
+}
+
+button:hover {
+    background-color: rgb(129, 129, 129);
+}
+
+.arrow {
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+
+  #img {
+      margin-top: -3rem;
+      border-radius: 50%;
+      border-style: solid;
+  }
+
+  h3 {
+      color: rgb(255, 230, 0);
+  }
+
+  h1 {
+      color: white;
+      margin-bottom: 8rem;
+  }
+
+  #text {
+    text-align: justify;
+    text-justify: inter-word;
+  }
